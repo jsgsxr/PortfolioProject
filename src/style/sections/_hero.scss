@@ -4,9 +4,8 @@
   display: flex;
   align-items: center;
   border-bottom: 0px;
-  background: $white-color;
   font-weight: 400;
-  color: $dark-blue-text;
+  color: white;
   padding: 0rem 5.6rem;
   margin-bottom: 0;
   top: 0;
@@ -14,12 +13,9 @@
   bottom: 0;
   right: 0;
   z-index: -1;
-
-  // If you want to set a background image on the hero section, uncomment these with yout custom image
-
-  /* background: url("/src/assets/[your-image].png");
-  background-position: center;
-  background-size: cover; */
+  background-image: url("../images/spacebg.jpg");
+  background-position: bottom;
+  background-size: cover;
 
   @include respond(phone) {
     padding: 0rem $default-font-size;
